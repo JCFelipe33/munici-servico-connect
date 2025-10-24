@@ -83,21 +83,21 @@ const Home = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Agora os serviços públicos estão em suas mãos
             </h2>
-            <p className="text-white/90 text-lg mb-8">
+            <p className="text-white/90 text-lg">
               Se manifeste por aqui e acompanhe tudo bem de perto
             </p>
-            <div className="mt-8">
-              <h3 className="text-xl font-semibold mb-1 text-white">Registrar manifestação</h3>
-              <p className="text-white/80 text-sm">
-                Atendimento, acesso e ações aos serviços públicos
-              </p>
-            </div>
           </div>
         </div>
       </div>
 
       {/* Services Grid */}
       <div className="container mx-auto px-4 -mt-8 pb-8">
+        <div className="mb-6 text-center">
+          <h3 className="text-xl font-semibold mb-1">Registrar manifestação</h3>
+          <p className="text-muted-foreground text-sm">
+            Atendimento, acesso e ações aos serviços públicos
+          </p>
+        </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-6">
           {serviceCards.map((service, index) => (
